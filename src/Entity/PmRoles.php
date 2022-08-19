@@ -2,7 +2,7 @@
 
 namespace DabrosDkos\PermissionsManager\Entity;
 
-use App\Repository\PmRolesRepository;
+use DabrosDkos\PermissionsManager\Repository\PmRolesRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: PmRolesRepository::class)]

@@ -2,11 +2,11 @@
 
 namespace DabrosDkos\PermissionsManager\Entity;
 
-use App\Repository\PmGroupRepository;
+use App\Entity\User;
+use DabrosDkos\PermissionsManager\Repository\PmGroupRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use App\Entity\User;
 
 #[ORM\Entity(repositoryClass: PmGroupRepository::class)]
 class PmGroup
