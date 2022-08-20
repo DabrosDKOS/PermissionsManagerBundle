@@ -1,6 +1,6 @@
 <?php
 
-namespace DabrosDkos\PermissionsManager;
+namespace DabrosDkos\PermissionsManagerBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

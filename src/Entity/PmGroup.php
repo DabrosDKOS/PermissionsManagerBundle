@@ -1,9 +1,9 @@
 <?php
 
-namespace DabrosDkos\PermissionsManager\Entity;
+namespace DabrosDkos\PermissionsManagerBundle\Entity;
 
 use App\Entity\User;
-use DabrosDkos\PermissionsManager\Repository\PmGroupRepository;
+use DabrosDkos\PermissionsManagerBundle\Repository\PmGroupRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;

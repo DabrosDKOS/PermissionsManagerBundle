@@ -1,6 +1,6 @@
 <?php
 
-namespace DabrosDkos\PermissionsManager\Controller;
+namespace DabrosDkos\PermissionsManagerBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
