@@ -1,6 +1,7 @@
 {
   "name": "dabros-dkos/permissions-manager-bundle",
   "description": "Api Permission Management module for Symfony",
+  "keywords": [],
   "type": "symfony-bundle",
   "require": {
     "php": ">=8.1",
@@ -10,7 +11,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DabrosDkos\\PermissionsManagerBundle\\": "src/"
+      "DabrosDkos\\PermissionsManagerBundle\\": ""
     }
   },
   "license": "MIT",
