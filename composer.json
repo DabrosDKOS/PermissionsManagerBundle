@@ -10,7 +10,7 @@
     "symfony/security-bundle": "6.1.*"
   },
   "autoload": {
-    "psr-4": {
+    "psr-12": {
       "DabrosDkos\\PermissionsManagerBundle\\": ""
     }
   },
