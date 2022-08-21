@@ -16,16 +16,15 @@ class PermissionsManagerBundle extends Bundle
         parent::build($container);
 
         if (class_exists(DoctrineOrmMappingsPass::class)) {
-            $namespaces = array('DabrosDkos\PermissionsManagerBundle\Model');
-            $directories = array(realpath(__DIR__ . '/Entity'));
-            $managerParameters = array();
+            $namespaces = ['DabrosDkos\PermissionsManagerBundle\Model'];
+            $directories = [realpath(__DIR__ . '/Entity')];
 
-            $aliasMap = array('PermissionsManagerBundle' => 'DabrosDkos\PermissionsManagerBundle\Model');
+            $aliasMap = ['PermissionsManagerBundle' => 'DabrosDkos\PermissionsManagerBundle\Model'];
             $container->addCompilerPass(
                 DoctrineOrmMappingsPass::createAnnotationMappingDriver(
                     $namespaces,
                     $directories,
-                    $managerParameters,
+                    [],
                     false,
                     $aliasMap
                 )
