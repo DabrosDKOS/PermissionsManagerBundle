@@ -1,9 +1,7 @@
-doctrine:
-  orm:
-    mappings:
-      PermissionsManagerBundle:
-        is_bundle: false
-        type: annotation
-        dir: '../../src/Entity'
-        prefix: 'DabrosDkos\PermissionsManagerBundle\Entity'
-        alias: PermissionsManagerBundle
+dabros_resource:
+  resources:
+    permissions-manager-bundle-roles:
+      driver: doctrine/orm
+      classes:
+        model: DabrosDkos\PermissionsManagerBundle\Entity\PmRoles
+        repository: DabrosDkos\PermissionsManagerBundle\Repository\PmRolesRepository
