@@ -19,6 +19,9 @@ class PermissionsManagerBundle extends Bundle
             $namespaces = ['DabrosDkos\PermissionsManagerBundle\Model'];
             $directories = [realpath(__DIR__ . '/Model')];
 
+            var_dump($directories);
+            die();
+
             $aliasMap = ['PermissionsManagerBundle' => 'DabrosDkos\PermissionsManagerBundle\Model'];
             $container->addCompilerPass(
                 DoctrineOrmMappingsPass::createAnnotationMappingDriver(
