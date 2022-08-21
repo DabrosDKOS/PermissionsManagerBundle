@@ -17,7 +17,7 @@ class PermissionsManagerBundle extends Bundle
 
         if (class_exists(DoctrineOrmMappingsPass::class)) {
             $namespaces = ['DabrosDkos\PermissionsManagerBundle\Model'];
-            $directories = [realpath(__DIR__ . '/Entity')];
+            $directories = [realpath(__DIR__ . '/Model')];
 
             $aliasMap = ['PermissionsManagerBundle' => 'DabrosDkos\PermissionsManagerBundle\Model'];
             $container->addCompilerPass(
