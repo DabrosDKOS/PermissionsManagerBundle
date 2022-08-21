@@ -5,6 +5,6 @@ doctrine:
     mappings:
       PermissionsManagerBundle:
         is_bundle: true
-        dir: '%kernel.project_dir%/src/Entity'
-        prefix: 'DabrosDkos\PermissionsManagerBundle\Entity'
+        dir: '%kernel.root_dir%/../../src/Entity'
+        prefix: 'PermissionsManagerBundle\Entity'
         alias: PermissionsManagerBundle
