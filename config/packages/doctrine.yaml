@@ -1,0 +1,10 @@
+doctrine:
+  orm:
+    auto_generate_proxy_classes: true
+    auto_mapping: true
+    mappings:
+      PermissionsManagerBundle:
+        is_bundle: true
+        dir: '%kernel.project_dir%/src/Entity'
+        prefix: 'DabrosDkos\PermissionsManagerBundle\Entity'
+        alias: PermissionsManagerBundle
