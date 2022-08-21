@@ -1,9 +1,9 @@
 doctrine:
   orm:
     mappings:
-      App:
+      PermissionsManagerBundle:
         is_bundle: false
         type: annotation
         dir: '../../src/Entity'
         prefix: 'DabrosDkos\PermissionsManagerBundle\Entity'
-        alias: App
+        alias: PermissionsManagerBundle
