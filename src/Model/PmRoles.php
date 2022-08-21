@@ -1,6 +1,6 @@
 <?php
 
-namespace DabrosDkos\PermissionsManagerBundle\Entity;
+namespace DabrosDkos\PermissionsManagerBundle\Model;
 
 use DabrosDkos\PermissionsManagerBundle\Repository\PmRolesRepository;
 use Doctrine\ORM\Mapping as ORM;

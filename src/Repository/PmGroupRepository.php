@@ -2,7 +2,7 @@
 
 namespace DabrosDkos\PermissionsManagerBundle\Repository;
 
-use DabrosDkos\PermissionsManagerBundle\Entity\PmGroup;
+use DabrosDkos\PermissionsManagerBundle\Model\PmGroup;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace DabrosDkos\PermissionsManagerBundle\Entity;
+namespace DabrosDkos\PermissionsManagerBundle\Model;
 
 use App\Entity\User;
 use DabrosDkos\PermissionsManagerBundle\Repository\PmGroupRepository;
