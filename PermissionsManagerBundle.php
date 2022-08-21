@@ -2,7 +2,6 @@
 
 namespace DabrosDkos\PermissionsManagerBundle;
 
-use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
 /**
@@ -10,8 +9,4 @@ use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
  */
 class PermissionsManagerBundle extends AbstractBundle
 {
-    public function build(ContainerBuilder $container)
-    {
-        parent::build($container);
-    }
 }
