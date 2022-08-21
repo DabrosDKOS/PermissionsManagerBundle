@@ -19,7 +19,7 @@ class PermissionsManagerBundle extends Bundle
             $namespaces = ['DabrosDkos\PermissionsManagerBundle\Model'];
             $directories = [realpath(__DIR__ . '/Model')];
 
-            var_dump(realpath(__DIR__ . '/Model'));
+            var_dump(__DIR__, '/Model', __DIR__ . '/Model', realpath(__DIR__ . '/Model'));
             die();
 
             $aliasMap = ['PermissionsManagerBundle' => 'DabrosDkos\PermissionsManagerBundle\Model'];
