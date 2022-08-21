@@ -5,3 +5,8 @@ dabros_resource:
       classes:
         model: DabrosDkos\PermissionsManagerBundle\Entity\PmRoles
         repository: DabrosDkos\PermissionsManagerBundle\Repository\PmRolesRepository
+    permissions-manager-bundle-group:
+      driver: doctrine/orm
+      classes:
+        model: DabrosDkos\PermissionsManagerBundle\Entity\PmGroup
+        repository: DabrosDkos\PermissionsManagerBundle\Repository\PmGroupRepository
