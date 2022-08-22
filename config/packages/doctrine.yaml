@@ -3,7 +3,8 @@ doctrine:
     auto_mapping: false
     mappings:
       PermissionsManagerBundle:
+        type: annotation
         is_bundle: true
         dir: '%kernel.root_dir%/../../src/Entity'
-        prefix: 'PermissionsManagerBundle\Entity'
+        prefix: 'DabrosDkos\PermissionsManagerBundle\Entity'
         alias: PermissionsManagerBundle
