@@ -1,6 +1,6 @@
 doctrine:
   orm:
-    auto_mapping: false
+    auto_mapping: true
     mappings:
       PermissionsManagerBundle:
         type: annotation
