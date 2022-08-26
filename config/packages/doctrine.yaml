@@ -7,8 +7,8 @@ doctrine:
     auto_mapping: true
     mappings:
       App:
-        is_bundle: false
+        is_bundle: true
         type: attribute
         dir: '%kernel.project_dir%/src/Entity'
-        prefix: 'App\Entity'
-        alias: App
+        prefix: 'DabrosDkos\PermissionsManagerBundle\Entity'
+        alias: PermissionsManagerBundle
