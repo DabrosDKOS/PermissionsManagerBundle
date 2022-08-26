@@ -6,7 +6,7 @@ use DabrosDkos\PermissionsManagerBundle\Repository\TestRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: TestRepository::class)]
-#[ORM\Table(name: '`test`')]
+#[ORM\Table(name: 'test')]
 class Test
 {
     #[ORM\Id]
