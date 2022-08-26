@@ -9,4 +9,11 @@ use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
  */
 class PermissionsManagerBundle extends AbstractBundle
 {
+    /**
+     * @inheritdoc
+     */
+    protected function getModelNamespace(): string
+    {
+        return 'DabrosDkos\PermissionsManagerBundle\Model';
+    }
 }
