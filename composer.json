@@ -11,7 +11,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DabrosDkos\\PermissionsManagerBundle\\PermissionsManagerBundle": "src/"
+      "DabrosDkos\\PermissionsManagerBundle": "src/"
     }
   },
   "license": "MIT",

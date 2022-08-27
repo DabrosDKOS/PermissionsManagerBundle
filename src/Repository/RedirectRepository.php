@@ -2,23 +2,23 @@
 
 namespace DabrosDkos\PermissionsManagerBundle\Repository;
 
-use DabrosDkos\PermissionsManagerBundle\Entity\Test;
+use DabrosDkos\PermissionsManagerBundle\Entity\Redirect;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
- * @extends ServiceEntityRepository<Test>
+ * @extends ServiceEntityRepository<Redirect>
  *
- * @method Test|null find($id, $lockMode = null, $lockVersion = null)
- * @method Test|null findOneBy(array $criteria, array $orderBy = null)
- * @method Test[]    findAll()
- * @method Test[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
+ * @method Redirect|null find($id, $lockMode = null, $lockVersion = null)
+ * @method Redirect|null findOneBy(array $criteria, array $orderBy = null)
+ * @method Redirect[]    findAll()
+ * @method Redirect[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class TestRepository extends ServiceEntityRepository
+class RedirectRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($registry, Test::class);
+        parent::__construct($registry, Redirect::class);
     }
 
 //    /**
