@@ -1,0 +1,15 @@
+DabrosDkos\PermissionsManagerBundle\Entity\Page:
+  type: mappedSuperclass
+  table: dabros_cms_page
+  id:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+  fields:
+    code:
+      column: code
+      type: string
+      length: 250
+      unique: true
