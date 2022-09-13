@@ -1,0 +1,2 @@
+imports:
+  - { resource: "@PermissionsManagerBundle/Resources/config/doctrine/Page.org.yml" }
