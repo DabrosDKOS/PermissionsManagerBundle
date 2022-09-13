@@ -1,2 +1,2 @@
 imports:
-  - { resource: "./doctrine/Page.org.yml" }
+  - { resource: "doctrine/Page.org.yml" }
